@@ -6,9 +6,13 @@ The International Phonetic Alphabet (IPA) is an alphabetic system of phonetic no
 
 Example:
 
- **Input:** How are you?
- 
- **IPA Conversion:** haʊ ə˞  ˈju?
+| Input Sentence       |       IPA                    |
+|----------------------|------------------------------|
+| How are you?         | haʊ ə˞ ˈju                    |
+| I love coding.       | aɪ lʌv ˈkoʊdɪŋ               |
+| The cat meowed.      | ðə kæt miˈaʊd                |
+
+
 
 ![IPATable](IPATable.jpg)
 
