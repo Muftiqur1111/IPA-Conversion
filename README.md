@@ -48,3 +48,8 @@ amount of money is pronounced as a whole. Examples:
 
 Giving the wrong representation to the IPA conversion model will lead to discrepancies with the Ground Truth, as the evaluation metric is the Word Error Rate (WER) where each substitution, deletion, and insertion contributes to the WER calculation.  Ensuring correct representations is crucial for minimizing errors and achieving higher accuracy in the test dataset.
 
+
+# Inference
+![Inference](inference.PNG)
+
+# Accuracy
