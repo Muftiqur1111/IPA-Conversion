@@ -42,9 +42,9 @@ amount of money is pronounced as a whole. Examples:
 | Case | Input Sentence                          | Wrong Representation                               | Correct Representation                          |
 |------|-----------------------------------------|----------------------------------------------------|------------------------------------------------|
 | 1    | I got 10$ from him.                    | I got one zero dollars from him.                  | I got ten dollars from him.                    |
-| 2    | His phone number is 67913.             | His mobile number is six seven nine one three zero. | His mobile number is six seven nine one three. |
+| 2    | His phone number is 67913.             | His mobile number is sixty-seven thousand nine hundred thirteen. | His mobile number is six seven nine one three. |
 | 3    | The cost of this product is 34.53$.   | The cost of this product is thirty-four point fifty-three dollars. | The cost of this product is thirty-four point five three. |
-| 4    | Boeing-777 is one of the most famous...| Boeing-seven seven seven is one of the most famous... | Boeing-seven seven seven is one of the most famous... |
+| 4    | Boeing-777 is one of the most famous...| Boeing-seven hundred seventy-seven is one of the most famous... | Boeing-seven seven seven is one of the most famous... |
 
 Giving the wrong representation to the IPA conversion model will lead to discrepancies with the Ground Truth, as the evaluation metric is the Word Error Rate (WER) where each substitution, deletion, and insertion contributes to the WER calculation.  Ensuring correct representations is crucial for minimizing errors and achieving higher accuracy in the test dataset.
 
