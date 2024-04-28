@@ -32,12 +32,8 @@ C: the number of correct words with the Ground Truth
 N: the number of words in the Ground Truth
 
 ## Challenges 
-The most challenging aspect of the competition is that the training dataset does not include Bangla
-numerals, whereas the test data contains many sentences with Bangla numerals. Handling numerals poses
-a challenge due to the context-dependent representation of numerals in sentences. Numerical values may
-be expressed either in numerical form or spelled out as words. The way a phone number is pronounced is not
-the same for others such as the amount of money because the phone number is pronounced digit by digit and the
-amount of money is pronounced as a whole. Examples:
+The most challenging aspect of the competition is that the training dataset does not include Bangla numerals, whereas the test data contains many sentences with Bangla numerals. Handling numerals poses a challenge due to the context-dependent representation of numerals in sentences. Numerical values may be expressed either in numerical form or spelled out as words. The way a phone number is pronounced is not
+the same for others such as the amount of money because the phone number is pronounced digit by digit and the amount of money is pronounced as a whole. Examples:
 
 | Case | Input Sentence                          | Wrong Representation                               | Correct Representation                          |
 |------|-----------------------------------------|----------------------------------------------------|------------------------------------------------|
@@ -49,7 +45,9 @@ amount of money is pronounced as a whole. Examples:
 Giving the wrong representation to the IPA conversion model will lead to discrepancies with the Ground Truth, as the evaluation metric is the Word Error Rate (WER) where each substitution, deletion, and insertion contributes to the WER calculation.  Ensuring correct representations is crucial for minimizing errors and achieving higher accuracy in the test dataset.
 
 
-# Inference
+## Inference
 ![Inference](inference.PNG)
 
-# Accuracy
+## Accuracy
+The model's performance is evaluated using the Word Error Rate (WER) calculation. A lower WER indicates better performance, with a perfect score of 0 indicating that the predicted output matches the ground truth exactly.
+The model achieved a Word Error Rate (WER) of 0.44.
