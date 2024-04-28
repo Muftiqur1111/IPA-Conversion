@@ -5,7 +5,9 @@
 The International Phonetic Alphabet (IPA) is an alphabetic system of phonetic notation primarily based on the Latin script. It allows everyone to learn the pronunciation and standardize the representation of spoken language. 
 
 Example:
+
  **Input:** How are you?
+ 
  **IPA Conversion:** haʊ ə˞  ˈju?
 
 ![IPATable](IPATable.jpg)
